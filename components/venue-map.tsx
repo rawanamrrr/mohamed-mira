@@ -11,7 +11,7 @@ export default function VenueMap() {
   const t = useTranslation()
 
   // Static map image from public folder
-  const staticMapUrl = "/map-venue.png"
+  const staticMapUrl = "/map-venue.jpeg"
   
   // Google Maps URL for Up Town Palace - Syria
   const googleMapsUrl = "https://maps.google.com/?q=Up%20Town%20Palace%2C%20Syria"
