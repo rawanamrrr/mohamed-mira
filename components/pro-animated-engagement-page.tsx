@@ -10,10 +10,9 @@ import { Variants } from "framer-motion"
 import { useTranslation } from "@/lib/translations"
 import { useLanguage } from "@/contexts/LanguageContext"
 import { Button } from "@/components/ui/button"
-import PhotoUploadSection from "@/components/photo-upload-section"
 import RSVPSection from "@/components/rsvp-section"
 import SongRequestSection from "@/components/song-request-section"
-import MemoryWallSection from "@/components/memory-wall-section"
+import GuestGuidelines from "@/components/guest-guidelines"
 
 // Format date in Arabic or English
 const formatDate = (date: Date, locale: string) => {
@@ -613,11 +612,8 @@ export default function ProAnimatedEngagementPage({ onImageLoad, introFinished }
       {/* Song Request Section */}
       <SongRequestSection />
 
-      {/* Memory Wall Section */}
-      <MemoryWallSection />
-
-      {/* Photo Upload Section */}
-      <PhotoUploadSection />
+      {/* Guest Guidelines Section */}
+      <GuestGuidelines />
       
       {/* Footer */}
       <motion.footer 

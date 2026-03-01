@@ -60,7 +60,12 @@ type TranslationKey =
   | 'sharePhotosDescription'
   | 'uploadButton'
   | 'scanQRCode'
-  | 'orUploadDirectly';
+  | 'orUploadDirectly'
+  | 'guestGuidelinesTitle'
+  | 'guestGuidelinesSubtitle'
+  | 'eventRulesTitle'
+  | 'noPhotography'
+  | 'noChildren';
 
 type Translations = {
   [key in TranslationKey]: {
@@ -96,7 +101,7 @@ export const translations: Translations = {
   },
   location: {
     en: 'Up Town Palace, Syria',
-    ar: 'قصر أبتاون، سوريا',
+    ar: 'قصر أب تاون، سوريا',
   },
   rsvpTitle: {
     en: 'Will You Join Us?',
@@ -309,6 +314,26 @@ export const translations: Translations = {
   orUploadDirectly: {
     en: 'Or click below to upload your photos directly',
     ar: 'أو اضغط أدناه لرفع صورك مباشرة',
+  },
+  guestGuidelinesTitle: {
+    en: 'Guest Guidelines',
+    ar: 'تعليمات الحضور',
+  },
+  guestGuidelinesSubtitle: {
+    en: 'Please kindly follow these guidelines during the event:',
+    ar: 'يرجى التكرم باتباع التعليمات التالية خلال الحفل:',
+  },
+  eventRulesTitle: {
+    en: 'Event rules and restrictions',
+    ar: 'قواعد وقيود الحفل',
+  },
+  noPhotography: {
+    en: 'No photography',
+    ar: 'ممنوع التصوير',
+  },
+  noChildren: {
+    en: 'No children',
+    ar: 'جنة الأطفال منازلهم',
   },
 };
 

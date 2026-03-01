@@ -18,29 +18,29 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mohamed-mira.digitivaa.com"),
-  title: "Mohamed & Mira - Wedding Celebration",
-  description: "Join us in celebrating Mohamed & Mira's wedding",
+  metadataBase: new URL("https://mohamad-mira.digitivaa.com"),
+  title: "Mohamad & Mira - Wedding Celebration",
+  description: "Join us in celebrating Mohamad & Mira's wedding",
   generator: "Digitiva",
   openGraph: {
-    url: "https://mohamed-mira.digitivaa.com/",
+    url: "https://mohamad-mira.digitivaa.com/",
     type: "website",
-    title: "Mohamed & Mira - Wedding Celebration",
-    description: "Join us in celebrating Mohamed & Mira's wedding",
+    title: "Mohamad & Mira - Wedding Celebration",
+    description: "Join us in celebrating Mohamad & Mira's wedding",
     images: [
       {
-        url: "https://mohamed-mira.digitivaa.com/invitation-design.png?v=3",
+        url: "https://mohamad-mira.digitivaa.com/invitation-design.png?v=3",
         width: 768,
         height: 1365,
-        alt: "Mohamed & Mira Wedding Invitation",
+        alt: "Mohamad & Mira Wedding Invitation",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mohamed & Mira - Wedding Celebration",
-    description: "Join us in celebrating Mohamed & Mira's wedding",
-    images: ["https://mohamed-mira.digitivaa.com/invitation-design.png?v=3"],
+    title: "Mohamad & Mira - Wedding Celebration",
+    description: "Join us in celebrating Mohamad & Mira's wedding",
+    images: ["https://mohamad-mira.digitivaa.com/invitation-design.png?v=3"],
   },
   icons: {
     icon: "/invitation-design.png?v=3",
@@ -54,27 +54,27 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="ar">
       <head>
         {/* ✅ Open Graph tags for Facebook & WhatsApp previews */}
-        <meta property="og:url" content="https://mohamed-mira.digitivaa.com/" />
+        <meta property="og:url" content="https://mohamad-mira.digitivaa.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Mohamed & Mira - Wedding Celebration" />
-        <meta property="og:description" content="Join us in celebrating Mohamed & Mira's wedding" />
+        <meta property="og:title" content="Mohamad & Mira - Wedding Celebration" />
+        <meta property="og:description" content="Join us in celebrating Mohamad & Mira's wedding" />
         <meta
           property="og:image"
-          content="https://mohamed-mira.digitivaa.com/invitation-design.png?v=3"
+          content="https://mohamad-mira.digitivaa.com/invitation-design.png?v=3"
         />
         <meta property="og:image:width" content="768" />
         <meta property="og:image:height" content="1365" />
-        <meta property="og:image:alt" content="Mohamed & Mira Wedding Invitation" />
+        <meta property="og:image:alt" content="Mohamad & Mira Wedding Invitation" />
         {/* Removed invalid fb:app_id since it's not needed for basic sharing */}
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Mohamed & Mira - Wedding Celebration" />
-        <meta name="twitter:description" content="Join us in celebrating Mohamed & Mira's wedding" />
-        <meta name="twitter:image" content="https://mohamed-mira.digitivaa.com/invitation-design.png?v=3" />
+        <meta name="twitter:title" content="Mohamad & Mira - Wedding Celebration" />
+        <meta name="twitter:description" content="Join us in celebrating Mohamad & Mira's wedding" />
+        <meta name="twitter:image" content="https://mohamad-mira.digitivaa.com/invitation-design.png?v=3" />
 
         {/* Preload PNG with high priority to eliminate lag on Netlify */}
         <link

@@ -82,11 +82,9 @@ export default function VenueMap() {
 
           <div className="mt-6 text-center px-4">
             <h3 className="text-xl sm:text-2xl font-serif font-medium text-foreground mb-2">
-              {isRTL ? 'قصر أبتاون' : 'Up Town Palace'}
+              {isRTL ? 'قصر أب تاون' : 'Up Town Palace'}
             </h3>
-            <p className="text-muted-foreground text-base sm:text-lg mb-3">
-              {isRTL ? 'سوريا' : 'Syria'}
-            </p>
+            
             <div className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 text-xs sm:text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
