@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     description: "Join us in celebrating Mohamad & Mira's wedding",
     images: [
       {
-        url: "https://mohamad-mira.digitivaa.com/invitation-design.png?v=3",
-        width: 768,
-        height: 1365,
+        url: "https://mohamad-mira.digitivaa.com/preview.jpg",
+        width: 1200,
+        height: 630,
         alt: "Mohamad & Mira Wedding Invitation",
       },
     ],
@@ -40,11 +40,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mohamad & Mira - Wedding Celebration",
     description: "Join us in celebrating Mohamad & Mira's wedding",
-    images: ["https://mohamad-mira.digitivaa.com/invitation-design.png?v=3"],
+    images: ["https://mohamad-mira.digitivaa.com/preview.jpg"],
   },
   icons: {
-    icon: "/invitation-design.png?v=3",
-    apple: "/invitation-design.png?v=3",
+    icon: "/preview.jpg",
+    apple: "/preview.jpg",
   },
 }
 
@@ -63,10 +63,10 @@ export default function RootLayout({
         <meta property="og:description" content="Join us in celebrating Mohamad & Mira's wedding" />
         <meta
           property="og:image"
-          content="https://mohamad-mira.digitivaa.com/invitation-design.png?v=3"
+          content="https://mohamad-mira.digitivaa.com/preview.jpg"
         />
-        <meta property="og:image:width" content="768" />
-        <meta property="og:image:height" content="1365" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Mohamad & Mira Wedding Invitation" />
         {/* Removed invalid fb:app_id since it's not needed for basic sharing */}
 
@@ -74,14 +74,14 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Mohamad & Mira - Wedding Celebration" />
         <meta name="twitter:description" content="Join us in celebrating Mohamad & Mira's wedding" />
-        <meta name="twitter:image" content="https://mohamad-mira.digitivaa.com/invitation-design.png?v=3" />
+        <meta name="twitter:image" content="https://mohamad-mira.digitivaa.com/preview.jpg" />
 
         {/* Preload PNG with high priority to eliminate lag on Netlify */}
         <link
           rel="preload"
-          href="/invitation-design.png?v=3"
+          href="/preview.jpg"
           as="image"
-          type="image/png"
+          type="image/jpeg"
         />
         {/* Preload video and poster for faster intro */}
         <link
